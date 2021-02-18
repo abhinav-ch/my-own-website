@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190830/pngtree-vector-design-background-of-scientist-with-chemical-titration-equipment-image_309238.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.navbar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;    
+}
+
+.navbar ul li:hover{
+    background-color: #424242;
+    border-radius: 3px;
+}
+
+.content{
+    display: none;
+}
+.navbar ul li:hover .content{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+} 
+
+.navbar ul li:hover .content ul{
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .content ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.inter-content{
+    display: none;
+}
+
+.counter:hover .inter-content{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: black;
+}
+h1, h2, h4{
+    margin-left: 20px;
+}
